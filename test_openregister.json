@@ -84,19 +84,19 @@
     },
     "info": {
         "title": "Test",
-        "description": "",
-        "version": "0.0.1"
+        "description": "Dit is een test configuratie voor de configuratie search",
+        "version": "0.0.2"
     },
     "x-openregister": {
         "type": "default",
         "app": "",
         "sourceType": "local",
-        "sourceUrl": "https://github.com/ConductionNL/toolchain/blob/main/_openregister.json",
+        "sourceUrl": "https://github.com/rubenvdlinde/test-configuration/blob/main/test_openregister.json",
         "openregister": null,
         "github": {
-            "repo": "ConductionNL/toolchain",
+            "repo": "rubenvdlinde/test-configuration",
             "branch": "main",
-            "path": "_openregister.json"
+            "path": "test_openregister.json"
         }
     }
 }
