@@ -1,0 +1,102 @@
+{
+    "openapi": "3.0.0",
+    "components": {
+        "registers": {
+            "test": {
+                "slug": "test",
+                "title": "Test",
+                "version": "0.0.1",
+                "description": "",
+                "schemas": [
+                    "test"
+                ],
+                "source": "internal",
+                "tablePrefix": "",
+                "folder": "160",
+                "updated": "2025-11-17T21:02:41+00:00",
+                "created": "2025-11-17T21:02:41+00:00",
+                "owner": null,
+                "application": null,
+                "authorization": null,
+                "groups": [],
+                "quota": {
+                    "storage": null,
+                    "bandwidth": null,
+                    "requests": null,
+                    "users": null,
+                    "groups": null
+                },
+                "usage": {
+                    "storage": 0,
+                    "bandwidth": 0,
+                    "requests": 0,
+                    "users": 0,
+                    "groups": 0
+                },
+                "deleted": null
+            }
+        },
+        "schemas": {
+            "test": {
+                "uri": null,
+                "slug": "test",
+                "title": "Test",
+                "description": "",
+                "version": "0.0.1",
+                "summary": "",
+                "icon": null,
+                "required": [],
+                "properties": [],
+                "archive": [],
+                "source": "internal",
+                "hardValidation": false,
+                "immutable": false,
+                "searchable": true,
+                "updated": "2025-11-17T21:02:29+00:00",
+                "created": "2025-11-17T21:02:29+00:00",
+                "maxDepth": 0,
+                "owner": null,
+                "application": null,
+                "groups": null,
+                "authorization": null,
+                "deleted": null,
+                "configuration": {
+                    "objectNameField": null,
+                    "objectDescriptionField": null,
+                    "objectImageField": null,
+                    "objectSummaryField": null,
+                    "allowFiles": false,
+                    "allowedTags": [],
+                    "autoPublish": false
+                },
+                "allOf": null,
+                "oneOf": null,
+                "anyOf": null
+            }
+        },
+        "endpoints": [],
+        "sources": [],
+        "mappings": [],
+        "jobs": [],
+        "synchronizations": [],
+        "rules": [],
+        "objects": []
+    },
+    "info": {
+        "title": "Test",
+        "description": "",
+        "version": "0.0.1"
+    },
+    "x-openregister": {
+        "type": "default",
+        "app": "",
+        "sourceType": "local",
+        "sourceUrl": "https://github.com/ConductionNL/toolchain/blob/main/_openregister.json",
+        "openregister": null,
+        "github": {
+            "repo": "ConductionNL/toolchain",
+            "branch": "main",
+            "path": "_openregister.json"
+        }
+    }
+}
